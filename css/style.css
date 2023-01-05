@@ -20,7 +20,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 .nav-logo {
@@ -42,17 +42,14 @@ nav li {
     color: #FD6E0A;
 }
 
-#header{
-    height: 100vh;
-}
-.header{
+.header {
     background-color: #FFF8F3;
-    background-image: url(../images/header_bg.png);
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
-    /* background-size: contain; */
-    /* height: 100vh; */
+    background-position: bottom right, left;
+    background-size: contain;
 }
+
 /* ---header and navbar part style end here--- */
 /* ---header and banner part style start here--- */
 .banner {
@@ -79,8 +76,70 @@ nav li {
     font-size: 18px;
     line-height: 30px;
     color: #757575;
+    padding-bottom: 30px;
 }
 
-/* ---header and banner part style end here--- */
-/* ---header and navbar part style end here--- */
+.banner-text .btn-priamry {
+    height: 64px;
+}
+
+.banner-text .btn-secondary {
+    padding: 18px 24px;
+    border: 1px solid #FD6E0A;
+    background-color: #FFF8F3;
+    height: 64px;
+}
+
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* ---about part style start here--- */
+.about {
+    margin: 130px 0;
+    text-align: center;
+    padding: 130px 156px;
+    background: #FFF8F3;
+    border-radius: 10px;
+}
+
+.section-titel {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #181818;
+    padding-bottom: 30px;
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    padding-bottom: 30px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-titel {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+    text-transform: capitalize;
+}
+
+.info-description {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #474747;
+}
+
+/* ---about part style end here--- */
 /* ---header and navbar part style end here--- */
