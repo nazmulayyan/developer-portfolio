@@ -15,7 +15,9 @@
     background: #FD6E0A;
     border-radius: 5px;
 }
-
+section{
+    margin-top: 130px;
+}
 /* ---header and navbar part style goes here--- */
 nav {
     display: flex;
@@ -98,7 +100,6 @@ main {
 
 /* ---about part style start here--- */
 .about {
-    margin: 130px 0;
     text-align: center;
     padding: 130px 156px;
     background: #FFF8F3;
@@ -106,6 +107,7 @@ main {
 }
 
 .section-titel {
+    text-align: center;
     font-weight: 700;
     font-size: 35px;
     line-height: 48px;
@@ -142,4 +144,49 @@ main {
 }
 
 /* ---about part style end here--- */
+/* ---what-i-do part style end here--- */
+.what-i-do .section-titel {
+    text-align: center;
+}
+
+.what-i-do .section-description {
+    padding: 0 156px;
+    text-align: center;
+}
+
+.skils-container {
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 24px;
+    padding-top: 40px ;
+}
+
+.skils-item {
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.skils-titel {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #181818;
+    padding-top: 30px;
+}
+
+.skils-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    padding-top: 20px;
+}
+
+/* ---summary-and-resume part style end here--- */
+.summary-and-resume{
+    
+}
+/* ---summary-and-resume part style end here--- */
 /* ---header and navbar part style end here--- */
