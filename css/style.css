@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+.btn-priamry {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    height: 64px;
+    border: none;
+    padding: 18px 35px;
+    background: #FD6E0A;
+    border-radius: 5px;
+}
+
+/* ---header and navbar part style goes here--- */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+.nav-logo {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+.primary-color {
+    color: #FD6E0A;
+}
+
+#header{
+    height: 100vh;
+}
+.header{
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    /* background-size: contain; */
+    /* height: 100vh; */
+}
+/* ---header and navbar part style end here--- */
+/* ---header and banner part style start here--- */
+.banner {
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-text h3 {
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+}
+
+.banner-text h1 {
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 116px;
+    text-transform: capitalize;
+}
+
+.banner-text p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
+
+/* ---header and banner part style end here--- */
+/* ---header and navbar part style end here--- */
+/* ---header and navbar part style end here--- */
